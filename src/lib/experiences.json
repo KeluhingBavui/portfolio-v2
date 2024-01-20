@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Backend Developer",
+        "company": "Stealth Startup",
+        "date": "Feb 2023 - Present",
+        "description": "Developed backend services to scale for web and mobile environments. Collaborated with frontend developers to integrate backend services into the frontend. Designed and developed database schema for the backend services. Implemented CI/CD pipelines to automate the deployment process and handled the deployment of the backend services.",
+        "skills": [
+            "REST API",
+            "TypeScript",
+            "NestJS",
+            "NextJS",
+            "Supabase",
+            "Tailwind CSS",
+            "Jest",
+            "Figma",
+            "Digital Ocean",
+            "Agile Development",
+            "CI/CD",
+            "Vendor Management",
+            "Unit Testing"
+        ]
+    },
+    {
+        "title": "Software Engineer Intern",
+        "company": "Dell Technologies Inc.",
+        "date": "August 2022 - January 2023",
+        "description": "Designed and developed web system that streamlines inventory management process for internal employees. Collaborated with other engineers on existing internal systems to add new features and fix bugs.",
+        "skills": [
+            "Full Stack Development",
+            "Java",
+            "TypeScript",
+            "Spring Boot",
+            "Angular",
+            "PostgreSQL",
+            "SCSS",
+            "Figma",
+            "Pivotal Cloud Foundry",
+            "Agile Development",
+            "Unit Testing"
+        ]
+    }
+]
