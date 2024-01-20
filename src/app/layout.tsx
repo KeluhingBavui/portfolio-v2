@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import { NavigationBar } from '@/components/nav-bar'
 import Link from 'next/link'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,7 @@ export default function RootLayout({
                         </Link>
                     </footer>
                 </ThemeProvider>
+                <Analytics />
             </body>
         </html>
     )
