@@ -62,7 +62,7 @@ export function NavigationBar() {
                 </NavigationMenuList>
             </NavigationMenu>
             <Sheet>
-                <SheetTrigger className="sm:hidden sticky top-0 bg-black bg-opacity-20 backdrop-blur-lg container py-2 justify-end flex">
+                <SheetTrigger className="sm:hidden sticky top-0 bg-black bg-opacity-20 backdrop-blur-lg container py-2 justify-end flex z-10">
                     <Menu />
                 </SheetTrigger>
                 <SheetContent className="w-1/3">
