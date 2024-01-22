@@ -309,7 +309,7 @@ export default function Home() {
             </section>
             <Separator />
             {/* Contact */}
-            <section id="contact" className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16">
+            <section id="contact" className="flex flex-col items-center justify-center gap-4 sm:py-48 py-24">
                 <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
                     Get In Touch
                 </h2>
