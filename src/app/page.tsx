@@ -8,6 +8,12 @@ import projects from "@/lib/projects.json";
 import { ProjectCard } from "@/components/project-card";
 import me from "@/lib/img/me.png";
 import Image from "next/image";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 export default function Home() {
     return (
@@ -25,21 +31,48 @@ export default function Home() {
                         I plan, design, build, test and deploy software. With the help of coffee of course.
                     </p>
                     <div className="flex gap-4">
-                        <Link href="https://www.linkedin.com/in/danielwanjo/" target="_blank">
-                            <Button variant="secondary" size="icon">
-                                <Linkedin />
-                            </Button>
-                        </Link>
-                        <Link href="https://github.com/KeluhingBavui" target="_blank">
-                            <Button variant="secondary" size="icon">
-                                <Github />
-                            </Button>
-                        </Link>
-                        <Link href="mailto:daniel01.jonathan@gmail.com" target="_blank">
-                            <Button variant="secondary" size="icon">
-                                <AtSign />
-                            </Button>
-                        </Link>
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Link href="https://www.linkedin.com/in/danielwanjo/" target="_blank">
+                                        <Button variant="secondary" size="icon">
+                                            <Linkedin />
+                                        </Button>
+                                    </Link>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>LinkedIn</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Link href="https://github.com/KeluhingBavui" target="_blank">
+                                        <Button variant="secondary" size="icon">
+                                            <Github />
+                                        </Button>
+                                    </Link>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>Github</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Link href="mailto:daniel01.jonathan@gmail.com" target="_blank">
+                                        <Button variant="secondary" size="icon">
+                                            <AtSign />
+                                        </Button>
+                                    </Link>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>Email</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
                     </div>
                 </div>
                 <div className="flex relative w-full h-full">
