@@ -1,13 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import { NavigationBar } from '@/components/nav-bar'
 import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-
-const inter = Inter({ subsets: ['latin'] })
+import { GeistSans } from "geist/font/sans";
 
 export const metadata: Metadata = {
     title: 'Daniel Wan',
@@ -21,7 +19,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>
+            <body className={GeistSans.className}>
                 <ThemeProvider
                     attribute='class'
                     defaultTheme='dark'
