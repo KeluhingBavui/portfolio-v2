@@ -16,7 +16,7 @@ import { Menu } from 'lucide-react';
 export function NavigationBar() {
     return (
         <>
-            <NavigationMenu className="hidden sm:flex sm:sticky sm:top-0 min-w-full bg-black bg-opacity-20 backdrop-blur-lg container py-4 justify-between">
+            <NavigationMenu className="hidden sm:flex sm:sticky sm:top-0 min-w-full bg-black bg-opacity-20 backdrop-blur-lg container py-4 justify-between border-b border-border/40">
                 <Link href="/" passHref>
                     <Avatar className="cursor-pointer">
                         <AvatarImage src="https://github.com/KeluhingBavui.png" alt="@KeluhingBavui" />
