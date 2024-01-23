@@ -343,7 +343,7 @@ export default function Home() {
                     Get In Touch
                 </h2>
                 <p className="leading-7">
-                    If you'd like to get in touch with me, feel free to reach on LinkedIn or my email and I'll get back to you whenever I can.
+                    If you'd like to get in touch with me, feel free to reach out to me on LinkedIn or my email and I'll get back to you whenever I can.
                 </p>
                 <div className="flex gap-4">
                     <Link href="mailto:daniel01.jonathan@gmail.com" target="_blank">
