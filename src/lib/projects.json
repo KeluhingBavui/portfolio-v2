@@ -22,6 +22,24 @@
         ]
     },
     {
+        "title": "Archangel",
+        "description": "A prototype designed to unlock the power of AI by revolutionizing the way angel investors source startups and effortlessly filter through pitch decks for the perfect investment opportunities. Collaborated with 4 other developers and managed to secure 2nd runner-up in the hackathon with this prototype.",
+        "type": "UMHackathon 2023 Project",
+        "imageUrl": "/assets/img/archangel.jpeg",
+        "githubUrl": "https://github.com/GnosisUM/gnosis-vc",
+        "demoUrl": "https://gnosis-vc-1.vercel.app/",
+        "skills": [
+            "TypeScript",
+            "NextJS",
+            "MySQL",
+            "Vercel",
+            "FastAPI",
+            "Python",
+            "AI",
+            "Machine Learning"
+        ]
+    },
+    {
         "title": "Expense Manager",
         "description": "A web application to help users to manage their expenses, savings and loans. A collaboration project with 5 other students for Component-based Software Engineering course. The project is built using Java Spring Boot for the backend and NextJS for the frontend.",
         "type": "University Project",
