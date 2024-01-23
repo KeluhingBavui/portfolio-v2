@@ -44,8 +44,6 @@ export default function Home() {
                                     <p>LinkedIn</p>
                                 </TooltipContent>
                             </Tooltip>
-                        </TooltipProvider>
-                        <TooltipProvider>
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <Link href="https://github.com/KeluhingBavui" target="_blank">
@@ -58,8 +56,6 @@ export default function Home() {
                                     <p>Github</p>
                                 </TooltipContent>
                             </Tooltip>
-                        </TooltipProvider>
-                        <TooltipProvider>
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <Link href="mailto:daniel01.jonathan@gmail.com" target="_blank">
@@ -95,7 +91,7 @@ export default function Home() {
                     I'm a person who loves to create new things. Especially tangible things. From the young age of 13, I've been interested in trying to create things like custom game maps in Warcraft III Frozen Throne, creating videos using Sony Vegas, creating music using FL Studio and many more. Up until one day, I picked up programming in 2018 during my foundation year and I fell head-first into the rabbit hole of web development. I've been hooked ever since.
                     <br />
                     <br />
-                    Fast-forward to today, I'm now a software engineering graduate from Universiti Malaya, and I've had the privilege of building software for a start-up company in Malaysia and an internal project for a multinational company during my internship.
+                    Fast-forward to today, I'm now approaching the end of my Software Engineering degree in Universiti Malaya, and I've had the privilege of building software for a start-up company in Malaysia and an internal project for a multinational company during my internship.
                     <br />
                     <br />
                     These days my main focus is on learning how to build high quality and scalable software applications and also continuously sharpening my skills from frontend to backend development. As the saying goes, <em>"Once you fullstack, you'll never go back"</em>.
@@ -151,7 +147,7 @@ export default function Home() {
                     Skills & Tools
                 </h2>
                 <p className="leading-7 text-center">
-                    The main area of expertise is in frontend development, but I'm also familiar with backend development as well through my experience. Hence, I am what they call &#128525;<em>fullstack </em>&#128525; developer.
+                    My primary focus lies in frontend development, yet I possess a solid understanding of backend development gained through practical experience. Consequently, I proudly identify as a 😍fullstack😍 developer.
                 </p>
                 <div className="flex flex-row gap-4 flex-wrap justify-center items-center">
                     {/* JavaScript */}
@@ -314,7 +310,7 @@ export default function Home() {
                     Get In Touch
                 </h2>
                 <p className="leading-7">
-                    If you'd like to get in touch with me, feel free to reach out to me and I'll get back to you as soon as I can.
+                    If you'd like to get in touch with me, feel free to reach on LinkedIn or my email and I'll get back to you whenever I can.
                 </p>
                 <div className="flex gap-4">
                     <Link href="mailto:daniel01.jonathan@gmail.com" target="_blank">

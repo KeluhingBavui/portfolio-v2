@@ -33,7 +33,7 @@ export default function RootLayout({
                     <footer className="container mx-auto py-4">
                         <Link href="https://github.com/KeluhingBavui/portfolio-v2" target="_blank">
                             <p className="text-center text-sm text-muted-foreground hover:text-white transition-all">
-                                Designed & Built by Daniel Wan Jonathan
+                                © Designed & Built by Daniel Wan Jonathan · 2024
                             </p>
                         </Link>
                     </footer>
