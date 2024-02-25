@@ -1,9 +1,9 @@
 [
     {
-        "title": "Backend Developer",
+        "title": "Lead Backend Developer",
         "company": "Stealth Startup",
         "date": "Feb 2023 - Present",
-        "description": "Developed backend services to scale for web and mobile environments. Collaborated with frontend developers to integrate backend services into the frontend. Designed and developed database schema for the backend services. Implemented CI/CD pipelines to automate the deployment process and handled the deployment of the backend services.",
+        "description": "I architected a scalable system for rapid deployment, making key decisions on cloud infrastructure, database management, and design paradigms. Led a team of 3 in developing backend services for web and mobile using REST APIs and component-based software engineering. Collaborated with frontend engineers for seamless integration, implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment processes.",
         "skills": [
             "REST API",
             "TypeScript",
@@ -16,7 +16,7 @@
             "Digital Ocean",
             "Agile Development",
             "CI/CD",
-            "Vendor Management",
+            "Database Management",
             "Unit Testing"
         ]
     },
