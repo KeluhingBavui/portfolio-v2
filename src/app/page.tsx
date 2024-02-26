@@ -1,20 +1,19 @@
 import { ExperienceCard } from "@/components/experience-card";
-import { Separator } from "@/components/ui/separator";
-import { AtSign, Github, Linkedin } from "lucide-react";
-import Link from "next/link";
-import experiences from "@/lib/experiences.json";
+import { ProjectCard3d } from "@/components/project-card-3d";
 import { Button } from "@/components/ui/button";
-import projects from "@/lib/projects.json";
-import { ProjectCard } from "@/components/project-card";
-import me from "@/lib/img/me.png";
-import Image from "next/image";
+import { Separator } from "@/components/ui/separator";
 import {
     Tooltip,
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
-} from "@/components/ui/tooltip"
-import { ProjectCard3d } from "@/components/project-card-3d";
+} from "@/components/ui/tooltip";
+import experiences from "@/lib/experiences.json";
+import me from "@/lib/img/me.png";
+import projects from "@/lib/projects.json";
+import { AtSign, Github, Linkedin } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -126,21 +125,7 @@ export default function Home() {
                 <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
                     Projects
                 </h2>
-                <div className="grid md:grid-cols-2 lg:hidden gap-4">
-                    {projects.map((projects) => (
-                        <ProjectCard
-                            key={projects.title}
-                            title={projects.title}
-                            type={projects.type}
-                            description={projects.description}
-                            imageUrl={projects.imageUrl}
-                            githubUrl={projects.githubUrl}
-                            demoUrl={projects.demoUrl}
-                            skills={projects.skills}
-                        />
-                    ))}
-                </div>
-                <div className="hidden lg:flex lg:flex-row lg:flex-wrap lg:gap-x-4 lg:justify-evenly">
+                <div className="flex flex-row flex-wrap gap-x-4 justify-evenly">
                     {projects.map((projects) => (
                         <ProjectCard3d
                             key={projects.title}
@@ -162,7 +147,7 @@ export default function Home() {
                     Skills & Tools
                 </h2>
                 <p className="leading-7 text-center">
-                    My primary focus lies in frontend development, yet I possess a solid understanding of backend development gained through practical experience. Consequently, I proudly identify as a 😍fullstack😍 developer.
+                    My primary focus lies in frontend development and backend development. Full-stack is the way to go xD.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 items-start">
                     {/* Languages */}
