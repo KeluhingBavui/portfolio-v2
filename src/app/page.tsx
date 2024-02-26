@@ -14,6 +14,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { ProjectCard3d } from "@/components/project-card-3d";
 
 export default function Home() {
     return (
@@ -125,9 +126,23 @@ export default function Home() {
                 <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
                     Projects
                 </h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid md:grid-cols-2 lg:hidden gap-4">
                     {projects.map((projects) => (
                         <ProjectCard
+                            key={projects.title}
+                            title={projects.title}
+                            type={projects.type}
+                            description={projects.description}
+                            imageUrl={projects.imageUrl}
+                            githubUrl={projects.githubUrl}
+                            demoUrl={projects.demoUrl}
+                            skills={projects.skills}
+                        />
+                    ))}
+                </div>
+                <div className="hidden lg:flex lg:flex-row lg:flex-wrap lg:gap-x-4 lg:justify-evenly">
+                    {projects.map((projects) => (
+                        <ProjectCard3d
                             key={projects.title}
                             title={projects.title}
                             type={projects.type}
