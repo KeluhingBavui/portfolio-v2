@@ -8,6 +8,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import experiences from "@/lib/experiences.json";
 import me from "@/lib/img/me.png";
 import projects from "@/lib/projects.json";
@@ -16,14 +17,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+    const name = [
+        { text: "Daniel" },
+        { text: "Wan" },
+    ]
+
     return (
         <div className="flex flex-col">
             {/* Hero */}
             <header className="flex flex-col sm:flex-row h-screen w-full justify-center items-center gap-4 mt-16">
                 <div className="flex flex-col gap-2 w-full">
-                    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-                        Daniel Wan Jonathan
-                    </h1>
+                    <TypewriterEffectSmooth words={name} />
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                         Software Engineer
                     </h3>
