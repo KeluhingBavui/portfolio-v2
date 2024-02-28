@@ -156,9 +156,9 @@ export default function Home() {
             </section>
             <Separator />
             {/* Projects */}
-            <section id="projects" className="flex flex-col items-start justify-start gap-4 sm:py-32 py-16">
+            <section id="projects" className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16">
                 <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
-                    Projects
+                    Projects Done
                 </h2>
                 <div className="flex flex-row flex-wrap gap-x-4 justify-evenly">
                     {projects.map((projects, index) => (
@@ -412,7 +412,7 @@ export default function Home() {
                     whileInView={{ opacity: 1, y: 0, transition: { duration: 0.4 } }}
                 >
                     <p className="leading-7">
-                        If you'd like to get in touch with me, feel free to reach out to me on LinkedIn or my email and I'll get back to you whenever I can.
+                        If you'd like to get in touch with me, feel free to reach out on LinkedIn or my email and I'll get back to you whenever I can.
                     </p>
                 </Reveal>
                 <div className="flex gap-4">
