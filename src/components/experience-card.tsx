@@ -30,17 +30,16 @@ export function ExperienceCard({ title, company, date, description, skills }: Ex
                     <p className="leading-7">{description}</p>
                 </Reveal>
                 {skills && (
-                    <div className="flex gap-2 flex-wrap">
-                        {skills.map((skill, index) => (
-                            <Reveal
-                                key={skill}
-                                initial={{ opacity: 0, y: 30 }}
-                                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.1, delay: index / 40 } }}
-                            >
-                                <Badge variant="default">{skill}</Badge>
-                            </Reveal>
-                        ))}
-                    </div>
+                    <Reveal
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0, transition: { duration: 0.4 } }}
+                    >
+                        <div className="flex gap-2 flex-wrap">
+                            {skills.map((skill) => (
+                                <Badge key={skill} variant="default">{skill}</Badge>
+                            ))}
+                        </div>
+                    </Reveal>
                 )}
             </CardContent>
         </Card>
