@@ -9,6 +9,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import experiences from "@/lib/experiences.json";
 import me from "@/lib/img/me.png";
@@ -141,7 +142,7 @@ export default function Home() {
                 <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center w-full">
                     Where I've Worked
                 </h2>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 md:hidden">
                     {experiences.map((experience) => (
                         <ExperienceCard
                             key={experience.title}
@@ -153,6 +154,20 @@ export default function Home() {
                         />
                     ))}
                 </div>
+                <TracingBeam className="px-6 hidden md:flex md:flex-col">
+                    <div className="flex flex-col gap-4">
+                        {experiences.map((experience) => (
+                            <ExperienceCard
+                                key={experience.title}
+                                title={experience.title}
+                                company={experience.company}
+                                date={experience.date}
+                                description={experience.description}
+                                skills={experience.skills}
+                            />
+                        ))}
+                    </div>
+                </TracingBeam>
             </section>
             <Separator />
             {/* Projects */}
