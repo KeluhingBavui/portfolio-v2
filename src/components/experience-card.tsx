@@ -1,3 +1,4 @@
+import { Reveal } from "./reveal";
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
@@ -12,18 +13,32 @@ interface ExperienceCardProps {
 export function ExperienceCard({ title, company, date, description, skills }: ExperienceCardProps) {
     return (
         <Card className="w-full">
-            <CardHeader>
-                <CardTitle>{title} · {company}</CardTitle>
-                <CardDescription>{date}</CardDescription>
-            </CardHeader>
+            <Reveal
+                initial={{ opacity: 0, y: -50 }}
+                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.4 } }}
+            >
+                <CardHeader>
+                    <CardTitle>{title} · {company}</CardTitle>
+                    <CardDescription>{date}</CardDescription>
+                </CardHeader>
+            </Reveal>
             <CardContent className="flex flex-col gap-4">
-                <div>
+                <Reveal
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
+                >
                     <p className="leading-7">{description}</p>
-                </div>
+                </Reveal>
                 {skills && (
                     <div className="flex gap-2 flex-wrap">
-                        {skills.map((skill) => (
-                            <Badge key={skill} variant="default">{skill}</Badge>
+                        {skills.map((skill, index) => (
+                            <Reveal
+                                key={skill}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.1, delay: index / 40 } }}
+                            >
+                                <Badge variant="default">{skill}</Badge>
+                            </Reveal>
                         ))}
                     </div>
                 )}
