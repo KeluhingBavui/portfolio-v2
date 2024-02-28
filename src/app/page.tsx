@@ -24,7 +24,7 @@ export default function Home() {
     ]
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col overflow-x-hidden">
             {/* Hero */}
             <header className="flex flex-col sm:flex-row h-screen w-full justify-center items-center gap-4 mt-16">
                 <div className="flex flex-col gap-2 w-full">
@@ -118,7 +118,7 @@ export default function Home() {
                     About Me
                 </h2>
                 <Reveal
-                    initial={{ opacity: 0, x: -50 }}
+                    initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
                 >
                     <p className="leading-7">
