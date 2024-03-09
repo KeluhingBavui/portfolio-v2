@@ -123,13 +123,13 @@ export default function Home() {
                     whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
                 >
                     <p className="leading-7">
-                        I'm a person who loves to create new things. Especially tangible things. From the young age of 13, I've been interested in trying to create things like custom game maps in Warcraft III Frozen Throne, creating videos using Sony Vegas, creating music using FL Studio and many more. Up until one day, I picked up programming in 2018 during my foundation year and I fell head-first into the rabbit hole of web development. I've been hooked ever since.
+                        I'm a person who loves making stuff, especially things you can see and interact. Back when I was 13, I got into creating custom game maps for Warcraft III Frozen Throne, making videos with Sony Vegas, and cooking up tunes with FL Studio. Then in 2018, during my foundation year, I stumbled upon programming and got hooked on web development. Haven't looked back since.
                         <br />
                         <br />
-                        Fast-forward to today, I'm now approaching the end of my Software Engineering degree in Universiti Malaya, and I've had the privilege of building software for a start-up company in Malaysia and an internal project for a multinational company during my internship.
+                        Fast-forward to today, I've successfully earned my Software Engineering degree from Universiti Malaya. Along the way, I had the privilege of contributing to software development for a startup in Malaysia and engaging in an internal project for the company I interned at. Not to mention the countless hours spent on personal projects and hackathons.
                         <br />
                         <br />
-                        These days my main focus is on learning how to build high quality and scalable software applications and also continuously sharpening my skills from frontend to backend development. As the saying goes, <em>"Once you fullstack, you'll never go back"</em>.
+                        Presently, my primary focus revolves around mastering the art of building high-quality and scalable software applications, continuously refining my skills in both frontend and backend development. As the saying goes, <em>"Once you go fullstack, you never go back"</em>.
                         <br />
                         <br />
                         When I'm not coding, I usually play games, play badminton/volleyball or binge-watch Youtube videos.
