@@ -1,8 +1,22 @@
 [
     {
+        "title": "Software Engineer 1",
+        "company": "Dell Technologies Inc.",
+        "date": "March 2024 - Present",
+        "description": "Recently joined the company as a Software Engineer 1. I am responsible for developing and maintaining software applications for internal use. I work closely with the product owner and other team members to deliver high-quality software solutions.",
+        "skills": [
+            "C#",
+            ".NET Core",
+            "Angular",
+            "TypeScript",
+            "Agile Development",
+            "Jira"
+        ]
+    },
+    {
         "title": "Lead Backend Developer",
-        "company": "Stealth Startup",
-        "date": "Feb 2023 - March 2024",
+        "company": "Revo Global Sdn. Bhd.",
+        "date": "Feb 2023 - March 2024 · 1 yr 2 mos",
         "description": "I architected a scalable system for rapid deployment, making key decisions on cloud infrastructure, database management, and design paradigms. Led a team of 3 in developing backend services for web and mobile using REST APIs and component-based software engineering. Collaborated with frontend engineers for seamless integration, implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment processes.",
         "skills": [
             "REST API",
@@ -23,7 +37,7 @@
     {
         "title": "Software Engineer Intern",
         "company": "Dell Technologies Inc.",
-        "date": "August 2022 - January 2023",
+        "date": "August 2022 - January 2023 · 6 mos",
         "description": "Designed and developed web system that streamlines inventory management process for internal employees. Collaborated with other engineers on existing internal systems to add new features and fix bugs.",
         "skills": [
             "Full Stack Development",
