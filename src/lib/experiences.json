@@ -3,12 +3,15 @@
         "title": "Software Engineer 1",
         "company": "Dell Technologies Inc.",
         "date": "March 2024 - Present",
-        "description": "Recently joined the company as a Software Engineer 1. I am responsible for developing and maintaining software applications for internal use. I work closely with the product owner and other team members to deliver high-quality software solutions.",
+        "description": "Part of a team responsible for maintaining a system that aids Dell Technologies' customer-facing operations. My contributions encompass developing comprehensive unit tests to ensure code integrity, executing regression testing tasks to ensure the system works as expected, and implementing feature enhancements and modifications in alignment with stakeholder specifications.",
         "skills": [
             "C#",
-            ".NET Core",
+            ".NET8",
             "Angular",
             "TypeScript",
+            "Microservices",
+            "Microfrontend",
+            "Full Stack Development",
             "Agile Development",
             "Jira"
         ]
@@ -38,7 +41,7 @@
         "title": "Software Engineer Intern",
         "company": "Dell Technologies Inc.",
         "date": "August 2022 - January 2023 · 6 mos",
-        "description": "Designed and developed web system that streamlines inventory management process for internal employees. Collaborated with other engineers on existing internal systems to add new features and fix bugs.",
+        "description": "Designed and developed a software that streamlines inventory management process for internal employees. Collaborated with other engineers on existing internal systems to implement feature enhancements and modifications.",
         "skills": [
             "Full Stack Development",
             "Java",
