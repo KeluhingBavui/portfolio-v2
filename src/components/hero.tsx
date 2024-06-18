@@ -14,7 +14,7 @@ export default function Hero() {
     ]
 
     return (
-        <header className="flex flex-col sm:flex-row h-screen w-full justify-center items-center gap-4 mt-16">
+        <header id="hero" className="flex flex-col sm:flex-row h-screen w-full justify-center items-center gap-4 mt-16">
             <div className="flex flex-col gap-2 w-full">
                 <TypewriterEffectSmooth words={name} />
                 <Reveal
