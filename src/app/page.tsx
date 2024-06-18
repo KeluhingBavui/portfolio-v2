@@ -1,8 +1,10 @@
-import { ExperienceCard } from "@/components/experience-card";
-import { ProjectCard3d } from "@/components/project-card-3d";
-import { Reveal } from "@/components/reveal";
+import { ExperienceCard } from "@/components/custom/experience-card";
+import { ProjectCard3d } from "@/components/custom/project-card-3d";
+import { Reveal } from "@/components/custom/reveal";
+import Feedbacks from "@/components/feedbacks";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
     Tooltip,
     TooltipContent,
@@ -17,6 +19,7 @@ import projects from "@/lib/projects.json";
 import { AtSign, Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
 
 export default function Home() {
     const name = [
@@ -195,6 +198,21 @@ export default function Home() {
                     ))}
                 </div>
             </section>
+            <Separator />
+            <Suspense fallback={
+                <section id="feedbacks" className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16">
+                    <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
+                        Things People Say
+                    </h2>
+                    <div className="flex flex-row space-x-8">
+                        <Skeleton className="h-[125px] w-[250px] rounded-xl" />
+                        <Skeleton className="h-[125px] w-[250px] rounded-xl" />
+                        <Skeleton className="h-[125px] w-[250px] rounded-xl" />
+                    </div>
+                </section>
+            }>
+                <Feedbacks />
+            </Suspense>
             <Separator />
             {/* Skills */}
             <section id="skills" className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16">
