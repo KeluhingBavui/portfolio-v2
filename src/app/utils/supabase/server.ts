@@ -1,6 +1,8 @@
 import { Database } from '@/types/supabase';
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { cookies } from 'next/headers';
+import { cache } from 'react';
+import About from '../../../components/about';
 
 export function createClient() {
     const cookieStore = cookies();
@@ -34,4 +36,23 @@ export function createClient() {
             },
         },
     );
+}
+
+export async function fetchFeedbacks() {
+    const supabase = createClient();
+    const { data, error } = await supabase
+        .from('feedback')
+        .select()
+        .eq('display', true);
+
+    if (error) {
+        console.error(error);
+        throw new Error('Failed to fetch feedbacks', { cause: error.message });
+    }
+
+    if (!data || data.length === 0) {
+        return null;
+    }
+
+    return data;
 }
