@@ -11,16 +11,22 @@ export default function About() {
                 whileInView={{ opacity: 1, x: 0, transition: { duration: 0.4 } }}
             >
                 <p className="leading-7">
-                    I'm a person who loves making stuff, especially things you can see and interact. Back when I was 13, I got into creating custom game maps for Warcraft III Frozen Throne, making videos with Sony Vegas, and cooking up tunes with FL Studio. Then in 2018, during my foundation year, I stumbled upon programming and got hooked on web development. Haven't looked back since.
+                    Over the past few years, I’ve navigated a wide spectrum of roles in tech—starting as a backend developer at a startup, stepping into fullstack development at Dell Technologies, and now expanding into system analysis and solution delivery at Tenaga Nasional Berhad. Each step has deepened my technical skills and broadened my understanding of how tech drives impact within complex organizations.
                     <br />
                     <br />
-                    Fast-forward to today, I've successfully earned my Software Engineering degree from Universiti Malaya. Along the way, I had the privilege of contributing to software development for a startup in Malaysia and also a multinational corporation. Not to mention the countless hours spent on personal projects and hackathons.
+                    At Dell, I worked as a fullstack software engineer on product teams supporting core business systems, contributing to both microservices and microfrontend architecture. Moving into my current role, I’ve taken on a wider scope—beyond development, I now lead initiatives involving system design, project planning, stakeholder engagement, observability, and technical support. It’s a role that challenges me to wear many hats, and I genuinely enjoy rising to the occasion.
                     <br />
                     <br />
-                    Presently, my primary focus revolves around mastering the art of building high-quality and scalable software applications, continuously refining my skills in both frontend and backend development. As the saying goes, <em>"Once you go fullstack, you never go back"</em>.
+                    Technically, I’m grounded in .NET, Angular, Nextjs, MySQL, and IIS. I’ve led the adoption of GitLab within my team and introduced observability tools like Prometheus and Grafana to improve system transparency and performance monitoring. I’m also keen on exploring cloud platforms like AWS and Microsoft Azure to deepen my understanding of modern infrastructure practices.
                     <br />
                     <br />
-                    When I'm not coding, I usually play games, play badminton/volleyball or binge-watch Youtube videos.
+                    What keeps me motivated is solving meaningful problems, building tools that improve the way teams work, and seeing the results in action. I’m often described as collaborative, adaptable, and dependable—with a mindset focused on ownership, empathy, and continuous learning.
+                    <br />
+                    <br />
+                    Having worked across startup, enterprise, and public sector environments, I’ve learned that delivering great tech goes beyond the code—it’s about communication, respect, and working with others toward a shared goal.
+                    <br />
+                    <br />
+                    Currently, I’m continuing to sharpen my fullstack expertise while exploring cloud architecture and observability in greater depth. I’m also open to stepping into leadership roles as I grow, especially where I can guide teams and contribute to long-term technical strategy.
                 </p>
             </Reveal>
         </section>
