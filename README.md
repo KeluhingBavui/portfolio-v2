@@ -1,6 +1,11 @@
 <h1 align="center">
   danielwanjo.xyz
 </h1>
+
+<h2>
+  I am officially moving on with a new portfolio site. This repository will be a remnant of what I did for my portfolio website without the help of AI
+</h2>
+
 <p align="center">
   The second iteration of my <a href="https://danielwanjo.xyz" target="_blank">portfolio site</a> with minimalistic approach. Built with <a href="https://www.nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
 </p>
@@ -18,7 +23,7 @@
 
 ## Interested in using this template?
 
-Feel free to use this template as a guide for your own site. However, try to think of ways to make your site as different and unique to your identity as compared to this one. Do link back to this repository or my [portfolio site](https://danielwanjo.xyz) as a credit if this site has inspired yours. Happy coding!
+Feel free to use this template as a guide for your own site.
 
 ## Credits
 
